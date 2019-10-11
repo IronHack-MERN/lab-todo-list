@@ -1,14 +1,15 @@
 import React from 'react';
 
 function List(props){
-    const {name}  = props;
+    const {name, status}  = props;
 
     return (
-        <div>
-            <ul>
-                <li>{name}</li>
-            </ul>
-        </div>
+        
+                <tr>
+                    <td>{name}</td>
+                    <td>{status}</td>
+                </tr>
+       
     );
 };
 
