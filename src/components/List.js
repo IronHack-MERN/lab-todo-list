@@ -1,12 +1,18 @@
 import React from 'react';
+import Button from './Button'
 
 function List(props){
-    const {name, status}  = props;
+    const { key, name, status, remove }  = props;
 
     return (
                 <tr>
-                    <td>{name}</td>
+                    <td>{name} {key}</td>
                     <td>{status}</td>
+                    <td>
+                        <Button myProp={remove}>
+                            Delete
+                        </Button>
+                    </td>
                 </tr>
     );
 };
