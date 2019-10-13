@@ -1,0 +1,11 @@
+[
+  {"name": "Koans-lab", "status": "done"},
+  {"name": "sort()", "status": "inprogress"},
+  {"name": "slice()", "status": "to-do"},
+  {"name": "map()", "status": "done"}, 
+  {"name": "filter()", "status": "to-do"}, 
+  {"name": "promisses", "status": "done"}, 
+  {"name": "async-away", "status": "in-progress"}, 
+  {"name": "flex", "status": "done"}, 
+  {"name": "bootstrap", "status": "to-do"}
+]

@@ -4,12 +4,10 @@ function List(props){
     const {name, status}  = props;
 
     return (
-        
                 <tr>
                     <td>{name}</td>
                     <td>{status}</td>
                 </tr>
-       
     );
 };
 
